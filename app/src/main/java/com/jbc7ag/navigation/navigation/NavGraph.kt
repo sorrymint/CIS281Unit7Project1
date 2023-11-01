@@ -15,7 +15,7 @@ fun NavGraph (navController: NavHostController){
         navController = navController,
         startDestination = Screens.Login.route)
     {
-//        add all screens to the NavHost
+/*      TODO add all screens to the NavHost using `composable`  */
 
     }
 }

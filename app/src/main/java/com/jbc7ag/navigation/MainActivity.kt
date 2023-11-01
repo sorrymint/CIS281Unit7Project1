@@ -19,14 +19,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             NavigationTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    //build a rememberNavController
+                    //TODO build a rememberNavController()
 
-                    //Pass newly crated navController to the NavGraph
+                    //TODO Pass newly crated navController var to the NavGraph()
                     NavGraph()
                 }
             }
@@ -39,7 +38,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun DefaultPreview() {
     NavigationTheme {
-        //hint hint
         val navController = rememberNavController()
         NavGraph(navController = navController)
     }

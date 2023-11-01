@@ -50,7 +50,7 @@ fun LoginScreen(navController: NavController) {
                 colors = ButtonDefaults.buttonColors(backgroundColor = Color.Black),
                 modifier = Modifier.padding(5.dp),
                 onClick = {
-                    //Add a way to Navigate to Home Screen
+                    //TODO Add a way to Navigate to Home Screen
                 }
             ) {
                 Text(

@@ -49,7 +49,7 @@ fun DetailScreen(navController: NavController) {
                     colors = ButtonDefaults.buttonColors(backgroundColor = Color.Black),
                     modifier = Modifier.padding(5.dp),
                     onClick = {
-                        //TODO: Navigate to Home
+                        //TODO add a way to Navigate to Home
                     }
                 ) {
                     Text(
